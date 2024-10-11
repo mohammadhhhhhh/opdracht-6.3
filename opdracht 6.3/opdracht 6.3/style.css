@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.logo, .login {
+    width: 25%;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+a:hover {
+    color: darkblue;
+}
